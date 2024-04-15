@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Semantic HTML Example</title>
+  <style>
+    body {
+      background-color: aliceblue;
+      align-items: center;
+    }
+    .fd {
+      display: flex;
+      align-items: center;
+      gap: 100px;
+    }
+    
+    .rd {
+      background-color:white;
+      width: 200px;
+      text-align: center;
+      display: flex;
+      border-radius: 8px;
+      margin: 10px;
+      flex-direction: column;
+    align-items: center;
+      
+    }
+    
+    .rd img {
+      width: 200px;
+     
+    }
+    .container {
+        display: flex;
+        row-gap: 10px;
+        margin: 0 auto;
+}
+form {
+         align-items: center;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            border-radius: 8px;
+            width: 300px;
+            margin: 0 auto;
+        }
+
+label {
+         display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 12px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+        button {
+            background-color: #4caf50;
+            color: white;
+            padding: 10px 90px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+   #d{
+    text-align: center;
+   }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="fd">
+        <span>Etsy</span>
+        <span>Etsy</span>
+        <span>Etsy</span>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="d">
+      <h2>About Us</h2>
+    </section>
+    <p>Explore the range of services we offer to our clients.</p>
+    <section class="container">
+      
+        <div class="rd">
+          <img src="https://i.etsystatic.com/18265338/r/il/5fbb42/4479721093/il_340x270.4479721093_gfiz.jpg" alt="Image 1">
+          <h1 id="kl">Anniversary Gifts</h1>
+        </div>
+        <div class="rd">
+          <img src="https://i.etsystatic.com/14980522/r/il/8746e6/5806724446/il_340x270.5806724446_jqg8.jpg" alt="Image 2">
+          <h1 id="kl">Gifts For Him</h1>
+        </div>
+        <div class="rd">
+            <img src="https://i.etsystatic.com/20922675/r/il/4af949/5429391062/il_340x270.5429391062_73r2.jpg" alt="Image 2">
+            <h1 id="kl">Gifts For Her</h1>
+            
+          </div>
+          <div class="rd">
+            <img src="https://i.etsystatic.com/20922675/r/il/4af949/5429391062/il_340x270.5429391062_73r2.jpg" alt="Image 2">
+            <h1 id="kl">ggjj</h1>
+            <p>Description for Image 2</p>
+          </div>
+          <div class="rd">
+            <img src="https://i.etsystatic.com/6322679/r/il/6e2e53/1668127003/il_340x270.1668127003_kwjn.jpg" alt="Image 2">
+            <h1 id="kl">ggjj</h1>
+            <p>Description for Image 2</p>
+          </div>
+
+    </section>
+
+    <form action="#" method="post">
+       <h1> Create Account</h1>
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" required>
+
+        <label for="email">Email (mandatory):</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone Number:</label>
+  <input type="tel" id="phone" name="phone" required>
+  <button type="submit">Submit</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 My Website. All rights reserved.</p>
+  </footer>
+</body>
+</html>
